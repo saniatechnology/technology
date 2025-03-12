@@ -10,7 +10,7 @@
 body {
   font-family: "Inter", sans-serif;
   font-weight: 300;
-  background-color: #6E6E6E;
+  background-color: #F4F4F4;
 }
 
 html {
@@ -26,6 +26,68 @@ p {
 a,
 .btn {
   transition: all 300ms ease;
+}  
+
+/* DESKTOP NAV */
+
+.window-frame-wrapper {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  padding: 0; /* Remove padding */
+  background: red; /* Border color */
+  clip-path: polygon(
+    0 0, 
+    40% 0, 45% 12px, 55% 12px, 60% 0, /* Trapezoidal notch */
+    100% 0, 100% 100%, 
+    0 100%
+  );
+}
+
+.window-frame {
+  position: fixed;
+  width: calc(100vw - 4px);
+  height: calc(100vh - 4px);
+  top: 2px;
+  left: 2px;
+  padding: 0; /* Remove padding */
+  background: #3498db;
+  clip-path: polygon(
+    0 0, 
+    40% 0, 45% 12px, 55% 12px, 60% 0, /* Trapezoidal notch */
+    100% 0, 100% 100%, 
+    0 100%
+  );
+}
+
+.window-frame-content {
+  position: fixed;
+  width: calc(100vw - 4px);
+  height: auto;
+  top: 2px;
+  left: 2px;
+  padding: 0; /* Remove padding */
+  background: #acfcc8;
+  clip-path: polygon(
+    0 0, 
+    40% 0, 45% 12px, 55% 12px, 60% 0, /* Trapezoidal notch */
+    100% 0, 100% 100%, 
+    0 100%
+  );
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.text-bubble {
+  width: 100%;
+  height: 500px;
+  padding: 1rem;
+  background: white;
+  overflow: auto;
 }
 
 /* DESKTOP NAV */
@@ -65,7 +127,6 @@ a:hover {
 
 .logo {
   font-size: 1.7rem;
-  color: white;
 }
 
 .logo:hover {
