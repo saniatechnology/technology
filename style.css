@@ -1,6 +1,7 @@
 /* GENERAL */
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
 
 * {
   margin: 0;
@@ -8,7 +9,7 @@
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   background-color: #ffffff;
 }
@@ -39,7 +40,7 @@ a,
   padding: 0; /* Remove padding */
   background: #3498db;
   overflow: scroll;
-  border: 2px solid black;
+  border: 1px solid black;
   border-radius: 6px;
   box-sizing: border-box;
 
@@ -99,7 +100,14 @@ a:hover {
 }
 
 .logo {
-  font-size: 1.7rem;
+  font-size: 0.8rem;
+  position: fixed;
+  top: 21px;
+  left: 50%;
+  z-index: 10000;
+  transform: translateX(-50%);
+  color: black;
+  font-family: "Aldrich", sans-serif;
 }
 
 .logo:hover {

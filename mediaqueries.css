@@ -56,9 +56,9 @@
 
 @media screen and (max-width: 600px) {
   /* DESKTOP NAV */
-  .logo {
+  /* .logo {
     font-size: 1.5rem;
-  }
+  } */
   /* PROFILE SECTION */
   .hero-image {
     width: 250px;
