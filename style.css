@@ -101,6 +101,11 @@ section {
   padding-inline: 10px;
 }
 
+.description {
+  font-size: 0.9rem;
+  padding: 10px;
+}
+
 /* PROJECTS SECTION */
 
 .project-container {
@@ -157,11 +162,6 @@ section {
   font-weight: 400;
 }
 
-.project-description {
-  font-size: 0.9rem;
-  padding: 10px;
-}
-
 .project-more-info {
   /* margin-top: 10px; */
   padding: 10px;
@@ -192,6 +192,16 @@ section {
 }
 
 /* ABOUT SECTION */
+
+#portrait {
+  width: 100%;
+  max-width: 500px;
+  height: 300px;
+  margin: auto;
+  background: url("assets/portrait.png") no-repeat center center;
+  background-size: cover;
+  border-radius: 6px;
+}
 
 /* CONTACT */
 
