@@ -1,0 +1,6 @@
+<svg width="182" height="42" viewBox="-4 0 182 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Outer shape for the border -->
+  <path d="M-1 -1H175L168.17 31.1061C167.654 33.3835 165.63 35 163.294 35H10.7057C8.3704 35 6.34616 33.3835 5.82954 31.1061L-1 -1Z" fill="black" />
+  <!-- Inner shape -->
+  <path d="M0 0H174L167.17 30.1061C166.654 32.3835 164.63 34 162.294 34H11.7057C9.3704 34 7.34616 32.3835 6.82954 30.1061L0 0Z" fill="white" />
+</svg>
