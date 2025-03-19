@@ -162,6 +162,11 @@ section {
   color: #64741f;
 }
 
+#project-port .project-title-container {
+  background: #ffc7ae;
+  color: #7d5745;
+}
+
 #project-fabrics .project-title-container {
   background: #ffcbfe;
   color: #755074;
